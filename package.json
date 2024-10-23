@@ -1,0 +1,21 @@
+{
+    "name": "hello",
+    "version": "1.0.0",
+    "main": "welcome.js",
+    "scripts": {
+        "welcome": "node welcome.js",
+        "quizz" : "node quizz.js",
+        "rng": "node randomNumGuess.js",
+        "rpc": "node RockPaperScissors.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "express": "^4.21.1",
+        "prompt-sync": "^4.2.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.7"
+    }
+}
